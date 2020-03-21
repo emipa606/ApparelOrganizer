@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Apparel Organizer (Continued)</name>
   	<packageId>Mlie.ApparelOrganizer</packageId>
@@ -12,6 +12,8 @@
 	<loadAfter />
 	<description>Update of TupiNUMBooRs mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1586143254
+
+[img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
 
 Support-chat:
 https://discord.gg/SuhwVpM
@@ -88,3 +90,4 @@ Preview art by Chicken Plucker
 [A17] by Mr. Sweetcakes
 </description>
 </ModMetaData>
+
