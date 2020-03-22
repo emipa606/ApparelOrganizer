@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--============================== ExoHelmets: Orassans ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_OrassanPowerArmorHelmet"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "Apparel_OrassanPowerArmorHelmet"]</xpath>
+				<value>
+					<thingCategories>
+						<li>ExoHelmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== ExoSuits: Orassans ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_KittyArmor"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_KittyArmor"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>ExoSuits</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+</Patch>

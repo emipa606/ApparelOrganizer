@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--============================== Tiberium_Rim_Masks: Tiberium Rim ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "TiberiumSuitMask_TBP"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "TiberiumSuitMask_TBP"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Masks</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Tiberium_Rim_Suits: Tiberium Rim ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "TiberiumSuit_TBP"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "TiberiumSuit_TBP"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Suits</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Tiberium_Rim_Hats: Tiberium Rim Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_GDIOfficerHelmet"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_GDIOfficerHelmet"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Hats</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_NodOfficerHelmet"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_NodOfficerHelmet"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Hats</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Tiberium_Rim_Masks: Tiberium Rim Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_GDIEngineerMask"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_GDIEngineerMask"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Masks</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "NodMilitiaMask"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "NodMilitiaMask"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Masks</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Tiberium_Rim_Suits: Tiberium Rim Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_GDIOfficerSuit"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_GDIOfficerSuit"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Suits</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_GDIEngineerSuit"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_GDIEngineerSuit"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Suits</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_NodMilitiaSuit"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_NodMilitiaSuit"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Suits</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_NodOfficerSuit"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_NodOfficerSuit"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Suits</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Tiberium_Rim_Helmets: Tiberium Rim Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_GDIZoneHelmet_TBP"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_GDIZoneHelmet_TBP"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_GDISoldierHelmet_TBP"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_GDISoldierHelmet_TBP"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_NodBlackHandHelmet"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_NodBlackHandHelmet"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Tiberium_Rim_Armors: Tiberium Rim Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_GDISoldierSuit_TBP"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_GDISoldierSuit_TBP"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Armors</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_GDIZoneSuit_TBP"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_GDIZoneSuit_TBP"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Armors</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_NodBlackHand"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_NodBlackHand"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Tiberium_Rim_Armors</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+</Patch>

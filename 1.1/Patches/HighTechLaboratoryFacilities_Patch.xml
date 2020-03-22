@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--============================== Civilian_Apparel_Outerlayers: High Tech Laboratory Facilities ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "LabCoat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "LabCoat"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== ExoHelmets: High Tech Laboratory Facilities ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_LeviathanH"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_LeviathanH"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>ExoHelmets</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== ExoSuits: High Tech Laboratory Facilities ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_Leviathan"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_Leviathan"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>ExoSuits</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_CyberSuit"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_CyberSuit"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>ExoSuits</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

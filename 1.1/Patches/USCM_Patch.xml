@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!--============================== Remove "USCMApparels" ThingCategoryDef ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingCategoryDef[defName="USCMApparels"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>*/ThingCategoryDef[defName="USCMApparels"]/label</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>*/ThingCategoryDef[defName="USCMApparels"]/parent</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
+	
+	<!--============================== Remove "USCMHeadgears" ThingCategoryDef ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingCategoryDef[defName="USCMHeadgears"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>*/ThingCategoryDef[defName="USCMHeadgears"]/label</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>*/ThingCategoryDef[defName="USCMHeadgears"]/parent</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Civilian_Apparel_Innerlayers: USCM - Core ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Marine_TShirt"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "Marine_TShirt"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_Bodysuit"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_Bodysuit"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_CamoPants"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_CamoPants"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Civilian_Apparel_Innerlayers: USCM - Colonial Marines Corps Faction ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Marine_TShirt_Generic"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "Marine_TShirt_Generic"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_Bodysuit_Generic"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_Bodysuit_Generic"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_CamoPants_Generic"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_CamoPants_Generic"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Helmets: USCM - Core ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_CamoHelmet"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_CamoHelmet"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_PilotHelmet"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_PilotHelmet"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Helmets: USCM - Colonial Marines Corps Faction ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_CamoHelmet_Generic"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_CamoHelmet_Generic"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_PilotHelmet_Generic"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_PilotHelmet_Generic"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Body_Armor: USCM - Core ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_M3_CamoArmor"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_M3_CamoArmor"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Body_Armor</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Body_Armor: USCM - Colonial Marines Corps Faction ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "USCM_M3_CamoArmor_Generic"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "USCM_M3_CamoArmor_Generic"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Body_Armor</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

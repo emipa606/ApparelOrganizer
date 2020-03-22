@@ -1,0 +1,938 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--============================== Hoods: Star Wars - The Force ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_JediHood"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_JediHood"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Hoods</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_SithHood"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_SithHood"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Hoods</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_CustomHood"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_CustomHood"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Hoods</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Robes: Star Wars - The Force ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_Jedi_Robe"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_Jedi_Robe"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Robes</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_Sith_Robe"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_Sith_Robe"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Robes</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_InnerRobes"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_InnerRobes"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Robes</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Robes: Star Wars - Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_JFac_Robe"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_JFac_Robe"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Robes</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_SithFac_Robe"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_SithFac_Robe"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Robes</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--============================== Hats: Star Wars - Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpHat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_ImpHat"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Hats</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpSTOHat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_ImpSTOHat"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Hats</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpHatBrn"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_ImpHatBrn"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Hats</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpHatB"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_ImpHatB"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Hats</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Uniforms: Star Wars - Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpUniform"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_ImpUniform"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpUniformBlack"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_ImpUniformBlack"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_STOffUniform"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_STOffUniform"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpNAVYSHELL"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_ImpNAVYSHELL"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpUniformBlackSHELL"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_ImpUniformBlackSHELL"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpUniformGrnSHELL"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_ImpUniformGrnSHELL"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpUniformBrownSHELL"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_ImpUniformBrownSHELL"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpUniformISBSHELL"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_ImpUniformISBSHELL"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpUniformGrnSHELL"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_ImpUniformGrnSHELL"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_GenFlight_Y"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_GenFlight_Y"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebOfficer"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_RebOfficer"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebFlight"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_RebFlight"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebBFlight"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_RebBFlight"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebCollarShirt"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_RebCollarShirt"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Uniforms Pants: Star Wars - Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_Apparel_Pants"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_Apparel_Pants"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Uniforms</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Jackets: Star Wars - Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_Reb_TroopJacket"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_Reb_TroopJacket"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Jackets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_Reb_ScoutJacket"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_Reb_ScoutJacket"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Jackets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_Reb_ScoutLAVJacket"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_Reb_ScoutLAVJacket"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Jackets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_Reb_CamoJacket"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_Reb_CamoJacket"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Jackets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Helmets: Star Wars - Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_STHelm"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_STHelm"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_SHHelm"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_SHHelm"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_DTHelm"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_DTHelm"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_SCTHelm"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_SCTHelm"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TIEHelm"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_TIEHelm"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_ImpNavyH"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_ImpNavyH"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_MandoHelm"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_MandoHelm"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebHat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_RebHat"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebLAVHat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_RebLAVHat"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebSnowHat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_RebSnowHat"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebScoutHat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_RebScoutHat"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebPilot_H_Red"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_RebPilot_H_Red"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_RebPilot_H_Blue"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "PJ_RebPilot_H_Blue"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Star_Wars_Helmets</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Armors: Star Wars - Factions ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TroopArmor"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_TroopArmor"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TroopArmorJO"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_TroopArmorJO"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TroopArmorNCO"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_TroopArmorNCO"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TroopArmorSO"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_TroopArmorSO"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TroopArmorSh"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_TroopArmorSh"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TroopArmorShC"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_TroopArmorShC"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TroopArmorShSL"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_TroopArmorShSL"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TroopArmorDT"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_TroopArmorDT"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_TroopArmorDTC"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_TroopArmorDTC"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_CompArmor"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_CompArmor"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_MandoArmor"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_MandoArmor"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_VetMandoArmor"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_VetMandoArmor"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_BarkMandoArmor"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_BarkMandoArmor"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PJ_Apparel_XVestPlate"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PJ_Apparel_XVestPlate"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Star_Wars_Armors</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+</Patch>

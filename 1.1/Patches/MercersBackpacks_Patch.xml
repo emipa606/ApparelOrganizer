@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--============================== Civilian_Apparel_Accessories: Mercer's Backpacks + Nano Suit ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "SmallBackpackMC"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "SmallBackpackMC"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Accessories</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "LargeBackpackMC"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "LargeBackpackMC"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Accessories</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Civilian_Apparel_Innerlayers: Mercer's Backpacks + Nano Suit ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "NanoSuitMC"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "NanoSuitMC"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--============================== Hats: PB Basic Apparel ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PBStrawHat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PBStrawHat"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Hats</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PBTopHat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PBTopHat"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Hats</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Civilian_Apparel_Innerlayers: PB Basic Apparel ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PBTankTop"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PBTankTop"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PBShorts"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PBShorts"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PBSkirt"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PBSkirt"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Innerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Civilian_Apparel_Outerlayers: PB Basic Apparel ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "PBCoat"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "PBCoat"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Outerlayers</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

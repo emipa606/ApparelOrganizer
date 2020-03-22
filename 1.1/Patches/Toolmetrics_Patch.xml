@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--============================== Civilian_Apparel_Accessories: Toolmetrics ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[@Name="TM_BaseToolBelt"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[@Name="TM_BaseToolBelt"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>Civilian_Apparel_Accessories</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Combat_Apparel_Accessories: Toolmetrics ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "TM_Combat_Kit"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "TM_Combat_Kit"]</xpath>
+				<value>
+					<thingCategories>
+						<li>Combat_Apparel_Accessories</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+	<!--============================== Masks: Remote Explosives ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_GasMask"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_GasMask"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Masks</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--============================== Combat_Apparel_Accessories: Remote Explosives ==============================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>/ThingDef[defName = "Apparel_PortableDetonator"]</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Apparel_PortableDetonator"]/thingCategories/li/text()</xpath>
+				<value>
+					<thingCategories>Combat_Apparel_Accessories</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>
