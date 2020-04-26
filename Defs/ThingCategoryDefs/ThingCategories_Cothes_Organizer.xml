@@ -226,6 +226,11 @@
     <parent>Borderlands_The_Rim_Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
+    <defName>Borderlands_The_Rim_Masks</defName>
+    <label>Masks</label>
+    <parent>Borderlands_The_Rim_Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
     <defName>Borderlands_The_Rim_Uniforms</defName>
     <label>Uniforms</label>
     <parent>Borderlands_The_Rim_Apparel</parent>
