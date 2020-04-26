@@ -1,34 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<!--============================== Civilian_Apparel_Outerlayers: Callistans ==============================-->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Callistan_Hoodie"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Callistan_Hoodie"]/thingCategories/li/text()</xpath>
-				<value>
-					<thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Callistan_ArmorHood"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Callistan_ArmorHood"]/thingCategories/li/text()</xpath>
-				<value>
-					<thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>	
+  <!--============================== Civilian_Apparel_Outerlayers: Callistans ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Callistan_Hoodie"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Callistan_Hoodie"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Callistan_ArmorHood"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Callistan_ArmorHood"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
 </Patch>

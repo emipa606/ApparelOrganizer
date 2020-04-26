@@ -1,92 +1,89 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<!--============================== Civilian_Apparel_Fallout: Toxic Fallout Protection Suit ==============================-->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_ABC_Helmet"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparel_ABC_Helmet"]</xpath>
-				<value>
-					<thingCategories>
-						<li>Civilian_Apparel_Fallout</li>
-					</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_ABC_Jacket"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Apparel_ABC_Jacket"]/thingCategories/li/text()</xpath>
-				<value>
-					<thingCategories>
-						<li>Civilian_Apparel_Fallout</li>
-					</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_ABC_Pants"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Apparel_ABC_Pants"]/thingCategories/li/text()</xpath>
-				<value>
-					<thingCategories>
-						<li>Civilian_Apparel_Fallout</li>
-					</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	
-	
-	<!--============================== ExoHelmets: T-45b Power Armor ==============================-->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_T45bPowerArmorHelmet"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparel_T45bPowerArmorHelmet"]</xpath>
-				<value>
-					<thingCategories>
-						<li>ExoHelmets</li>
-					</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	
-	<!--============================== ExoSuits: T-45b Power Armor ==============================-->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_T-45bPowerArmor"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Apparel_T-45bPowerArmor"]/thingCategories/li/text()</xpath>
-				<value>
-					<thingCategories>ExoSuits</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
+  <!--============================== Civilian_Apparel_Fallout: Toxic Fallout Protection Suit ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_ABC_Helmet"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_ABC_Helmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Fallout</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_ABC_Jacket"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_ABC_Jacket"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Fallout</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_ABC_Pants"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_ABC_Pants"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Fallout</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== ExoHelmets: T-45b Power Armor ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_T45bPowerArmorHelmet"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_T45bPowerArmorHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>ExoHelmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== ExoSuits: T-45b Power Armor ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_T-45bPowerArmor"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_T-45bPowerArmor"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>ExoSuits</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
 </Patch>

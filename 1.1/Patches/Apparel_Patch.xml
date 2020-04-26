@@ -1,307 +1,291 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-	<!--============================== Hats: Vanilla ==============================-->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_CowboyHat"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparel_CowboyHat"]</xpath>
-				<value>
-					<thingCategories>
-						<li>Hats</li>
-					</thingCategories>
-				</value>
-			</li>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_Tuque"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparel_Tuque"]</xpath>
-				<value>
-					<thingCategories>
-						<li>Hats</li>
-					</thingCategories>
-				</value>
-			</li>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_PsychicFoilHelmet"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparel_PsychicFoilHelmet"]</xpath>
-				<value>
-					<thingCategories>
-						<li>Special_Apparel_Hats</li>
-					</thingCategories>
-				</value>
-			</li>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_TribalHeaddress"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName = "Apparel_TribalHeaddress"]</xpath>
-				<value>
-					<thingCategories>
-						<li>Hats</li>
-					</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-
-	<!--============================== Civilian_Apparel_Accessories: Headgear Frame ==============================-->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_EyeCover"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Apparel_EyeCover"]/thingCategories/li/text()</xpath>
-				<value>
-					<thingCategories>Civilian_Apparel_Accessories</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	<!--============================== Civilian_Apparel_Accessories: Firefoam Belt ==============================-->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_FirefoampBelt"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Apparel_FirefoampBelt"]/thingCategories</xpath>
-				<value>
-					<thingCategories>
-						<li>Civilian_Apparel_Accessories</li>
-						<li>Combat_Apparel_Accessories</li>
-					</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-
-	<!--============================== Combat_Apparel_Accessories: Vanilla ==============================-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_ShieldBelt"]/thingCategories</xpath>
-		<value>
-			<thingCategories>
-				<li>Special_Apparel_Accessories</li>
-			</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_SmokepopBelt"]/thingCategories</xpath>
-		<value>
-			<thingCategories>
-				<li>Special_Apparel_Accessories</li>
-			</thingCategories>
-		</value>
-	</Operation>
-
-	<!--============================== Civilian_Apparel_Innerlayers: Vanilla ==============================-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_BasicShirt"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_Pants"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_CollarShirt"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_TribalA"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
-		</value>
-	</Operation>
-
-	<!--============================== Civilian_Apparel_Outerlayers: Vanilla ==============================-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_Duster"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_Jacket"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_Parka"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
-		</value>
-	</Operation>
-
-	<!--============================== Helmets: Vanilla ==============================-->
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "Apparel_SimpleHelmet"]/thingCategories</xpath>
-		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Apparel_SimpleHelmet"]/thingCategories</xpath>
-			<value>
-				<li>Helmets</li>
-			</value>
-		</match>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Apparel_SimpleHelmet"]</xpath>
-			<value>
-				<thingCategories>
-					<li>Helmets</li>
-				</thingCategories>
-			</value>
-		</nomatch>
-	</Operation>
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "Apparel_AdvancedHelmet"]/thingCategories</xpath>
-		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Apparel_AdvancedHelmet"]/thingCategories</xpath>
-			<value>
-				<li>Helmets</li>
-			</value>
-		</match>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Apparel_AdvancedHelmet"]</xpath>
-			<value>
-				<thingCategories>
-					<li>Helmets</li>
-				</thingCategories>
-			</value>
-		</nomatch>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThingDef[defName = "Apparel_WarMask"]</xpath>
-		<value>
-			<thingCategories>
-				<li>Helmets</li>
-			</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThingDef[defName = "Apparel_WarVeil"]</xpath>
-		<value>
-			<thingCategories>
-				<li>Helmets</li>
-			</thingCategories>
-		</value>
-	</Operation>
-	
-	<!--============================== Body_Armor: Vanilla ==============================-->
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_FlakVest"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Body_Armor</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_FlakPants"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Body_Armor</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_FlakJacket"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Body_Armor</thingCategories>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>*/ThingDef[defName = "Apparel_PlateArmor"]/thingCategories/li/text()</xpath>
-		<value>
-			<thingCategories>Body_Armor</thingCategories>
-		</value>
-	</Operation>
-
-	<!--============================== ExoHelmets: Vanilla ==============================-->
-	<Operation Class="PatchOperationConditional">
-		<xpath>/Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/thingCategories</xpath>
-		<match Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/thingCategories</xpath>
-			<value>
-				<li>ExoHelmets</li>
-			</value>
-		</match>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>/Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]</xpath>
-			<value>
-				<thingCategories>
-					<li>ExoHelmets</li>
-				</thingCategories>
-			</value>
-		</nomatch>
-	</Operation>
-
-
-
-	<!--============================== ExoSuits: Vanilla ==============================-->
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThingDef[defName = "Apparel_PowerArmor"]</xpath>
-		<value>
-			<thingCategories>
-				<li>ExoSuits</li>
-			</thingCategories>
-		</value>
-	</Operation>
-	
-	<!--============================== Psyware: Vanilla ==============================-->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_PsyfocusHelmet"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Apparel_PsyfocusHelmet"]/thingCategories</xpath>
-				<value>
-					<thingCategories>
-						<li>Special_Apparel_Hats</li>
-					</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[defName = "Apparel_PsyfocusShirt" or defName = "Apparel_PsyfocusVest" or defName = "Apparel_PsyfocusRobe"]</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Apparel_PsyfocusShirt" or defName = "Apparel_PsyfocusVest" or defName = "Apparel_PsyfocusRobe"]/thingCategories</xpath>
-				<value>
-					<thingCategories>
-						<li>Special_Apparel</li>
-					</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	
-
-
-
+  <!--============================== Hats: Vanilla ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_CowboyHat"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_CowboyHat"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_Tuque"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_Tuque"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_PsychicFoilHelmet"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_PsychicFoilHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Special_Apparel_Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_TribalHeaddress"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_TribalHeaddress"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Accessories: Headgear Frame ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_EyeCover"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_EyeCover"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Accessories: Firefoam Belt ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FirefoampBelt"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FirefoampBelt"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Accessories</li>
+            <li>Combat_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Combat_Apparel_Accessories: Vanilla ==============================-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_ShieldBelt"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Special_Apparel_Accessories</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_SmokepopBelt"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>Special_Apparel_Accessories</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!--============================== Civilian_Apparel_Innerlayers: Vanilla ==============================-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_BasicShirt"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_Pants"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_CollarShirt"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_TribalA"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+    </value>
+  </Operation>
+  <!--============================== Civilian_Apparel_Outerlayers: Vanilla ==============================-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_Duster"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_Jacket"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_Parka"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+    </value>
+  </Operation>
+  <!--============================== Helmets: Vanilla ==============================-->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "Apparel_SimpleHelmet"]/thingCategories</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName = "Apparel_SimpleHelmet"]/thingCategories</xpath>
+      <value>
+        <li>Helmets</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName = "Apparel_SimpleHelmet"]</xpath>
+      <value>
+        <thingCategories>
+          <li>Helmets</li>
+        </thingCategories>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "Apparel_AdvancedHelmet"]/thingCategories</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName = "Apparel_AdvancedHelmet"]/thingCategories</xpath>
+      <value>
+        <li>Helmets</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName = "Apparel_AdvancedHelmet"]</xpath>
+      <value>
+        <thingCategories>
+          <li>Helmets</li>
+        </thingCategories>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Apparel_WarMask"]</xpath>
+    <value>
+      <thingCategories>
+        <li>Helmets</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Apparel_WarVeil"]</xpath>
+    <value>
+      <thingCategories>
+        <li>Helmets</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!--============================== Body_Armor: Vanilla ==============================-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_FlakVest"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Body_Armor</thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_FlakPants"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Body_Armor</thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_FlakJacket"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Body_Armor</thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "Apparel_PlateArmor"]/thingCategories/li/text()</xpath>
+    <value>
+      <thingCategories>Body_Armor</thingCategories>
+    </value>
+  </Operation>
+  <!--============================== ExoHelmets: Vanilla ==============================-->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/thingCategories</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]/thingCategories</xpath>
+      <value>
+        <li>ExoHelmets</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[defName = "Apparel_PowerArmorHelmet"]</xpath>
+      <value>
+        <thingCategories>
+          <li>ExoHelmets</li>
+        </thingCategories>
+      </value>
+    </nomatch>
+  </Operation>
+  <!--============================== ExoSuits: Vanilla ==============================-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "Apparel_PowerArmor"]</xpath>
+    <value>
+      <thingCategories>
+        <li>ExoSuits</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!--============================== Psyware: Vanilla ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_PsyfocusHelmet"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_PsyfocusHelmet"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Special_Apparel_Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_PsyfocusShirt" or defName = "Apparel_PsyfocusVest" or defName = "Apparel_PsyfocusRobe"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_PsyfocusShirt" or defName = "Apparel_PsyfocusVest" or defName = "Apparel_PsyfocusRobe"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Special_Apparel</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
 </Patch>
