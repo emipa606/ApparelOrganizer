@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Dragonian_Race_Hats: Dragonian Race ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[@Name = "DR_HatMakeableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[@Name = "DR_HatMakeableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Hats</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Dragonian_Race_Dresses: Dragonian Race ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_BasicWear"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_BasicWear"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_BasicDress"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_BasicDress"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_GreekDress"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_GreekDress"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_GreekHanZo"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_GreekHanZo"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_GreekPriest"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_GreekPriest"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_GreekSexyDress"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_GreekSexyDress"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_GreekString"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_GreekString"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_JapaneseDress"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_JapaneseDress"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_Onepiece"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_Onepiece"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_EveningDress"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_EveningDress"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_MaleDress"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_MaleDress"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Dresses</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Dragonian_Race_Accessories: Dragonian Race ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_Necklace"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "DR_Necklace"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>DR_ApparelMakeableBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "DR_Necklace"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Dragonian_Race_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_BellNecklace"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "DR_BellNecklace"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>DR_ApparelMakeableBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "DR_BellNecklace"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Dragonian_Race_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Dragonian_Race_Armors: Dragonian Race ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_BattleDress"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_BattleDress"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Armors</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_BattleDressMale"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_BattleDressMale"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Armors</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Dragonian_Race_Helmets: Dragonian Race ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_BattleHelm"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "DR_BattleHelm"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>DR_ApparelMakeableBase</value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_BattleHelm"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Helmets</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "DR_BattleHelmMale"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "DR_BattleHelmMale"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>DR_ApparelMakeableBase</value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "DR_BattleHelmMale"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Dragonian_Race_Helmets</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

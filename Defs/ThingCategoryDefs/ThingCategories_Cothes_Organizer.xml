@@ -240,4 +240,34 @@
     <label>Armors</label>
     <parent>Borderlands_The_Rim_Apparel</parent>
   </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Dragonian_Race_Apparel</defName>
+    <label>[Dragonian Apparel]</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Dragonian_Race_Hats</defName>
+    <label>Hats/Hair ornaments</label>
+    <parent>Dragonian_Race_Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Dragonian_Race_Dresses</defName>
+    <label>Dresses</label>
+    <parent>Dragonian_Race_Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Dragonian_Race_Accessories</defName>
+    <label>Accessories</label>
+    <parent>Dragonian_Race_Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Dragonian_Race_Armors</defName>
+    <label>Armors</label>
+    <parent>Dragonian_Race_Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Dragonian_Race_Helmets</defName>
+    <label>Helmets</label>
+    <parent>Dragonian_Race_Apparel</parent>
+  </ThingCategoryDef>
 </Defs>
