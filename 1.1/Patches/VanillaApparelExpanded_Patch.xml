@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Civilian_Apparel_Footwear: Vanilla Apparel Expanded ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Footwear_Boots"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Footwear_Boots"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Footwear</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Footwear_Shoes"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Footwear_Shoes"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Footwear</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Handwear: Vanilla Apparel Expanded ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Handwear_Gloves"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Footwear_Boots"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Handwear</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Hats: Vanilla Apparel Expanded ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Headgear_Fedora"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Headgear_Fedora"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Hats</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Headgear_TrapperHat"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Headgear_TrapperHat"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Hats</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Headgear_SummerHat"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Headgear_SummerHat"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Hats</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Headgear_Hood"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Headgear_Hood"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Hats</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Innerlayers: Vanilla Apparel Expanded ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_CasualTShirt"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_CasualTShirt"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Hoodie"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Hoodie"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Shorts"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Shorts"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Skirt"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Skirt"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_ShirtandTie"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_ShirtandTie"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Trousers"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Trousers"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_FleeceShirt"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_FleeceShirt"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Jeans"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Jeans"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_ChefsUniform"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_ChefsUniform"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_DoctorScrubs"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_DoctorScrubs"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_TankTop"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_TankTop"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_SheriffShirt"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_SheriffShirt"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Jumpsuit"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Jumpsuit"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Tunic"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Tunic"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Blouse"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Blouse"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_TribalKilt"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_TribalKilt"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Outerlayers: Vanilla Apparel Expanded ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_SuitJacket"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_SuitJacket"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Overalls"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Overalls"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_MilitaryJacket"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_MilitaryJacket"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_MilitaryUniform"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_MilitaryUniform"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_BuildersJacket"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_BuildersJacket"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_LabCoat"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_LabCoat"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Apron"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Apron"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_PeltCoat"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_PeltCoat"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_TribalPoncho"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_TribalPoncho"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Accessories: Vanilla Apparel Expanded ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Cape"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VAE_Apparel_Cape"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
