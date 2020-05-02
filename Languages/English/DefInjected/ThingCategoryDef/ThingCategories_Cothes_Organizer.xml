@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Civilian_Apparel.label>[Civilian Apparel]</Civilian_Apparel.label>
+  <Hats.label>Hats</Hats.label>
+  <Goggles.label>Goggles</Goggles.label>
+  <Masks.label>Masks</Masks.label>
+  <Civilian_Apparel_Handwear.label>Handwear</Civilian_Apparel_Handwear.label>
+  <Civilian_Apparel_Footwear.label>Footwear</Civilian_Apparel_Footwear.label>
+  <Civilian_Apparel_Accessories.label>Accessories</Civilian_Apparel_Accessories.label>
+  <Civilian_Apparel_Innerlayers.label>Innerlayers</Civilian_Apparel_Innerlayers.label>
+  <Civilian_Apparel_Outerlayers.label>Outerlayers</Civilian_Apparel_Outerlayers.label>
+  <Civilian_Apparel_Straightjacket.label>Straightjacket</Civilian_Apparel_Straightjacket.label>
+  <Civilian_Apparel_Fallout.label>Fallout Protection</Civilian_Apparel_Fallout.label>
+  <Combat_Apparel.label>[Combat Apparel]</Combat_Apparel.label>
+  <Helmets.label>Helmets</Helmets.label>
+  <Combat_Apparel_Handwear.label>Handwear</Combat_Apparel_Handwear.label>
+  <Combat_Apparel_Footwear.label>Footwear</Combat_Apparel_Footwear.label>
+  <Combat_Apparel_Accessories.label>Accessories</Combat_Apparel_Accessories.label>
+  <Shoulder_Armor.label>Shoulderpads</Shoulder_Armor.label>
+  <Body_Armor.label>Body Armor</Body_Armor.label>
+  <Leg_Armor.label>Leg Armor</Leg_Armor.label>
+  <ExoHelmets.label>ExoHelmets</ExoHelmets.label>
+  <Combat_Apparel_ExoHandwear.label>ExoHandwear</Combat_Apparel_ExoHandwear.label>
+  <Combat_Apparel_ExoFootwear.label>ExoFootwear</Combat_Apparel_ExoFootwear.label>
+  <ExoSuits.label>ExoSuits</ExoSuits.label>
+  <Special_Apparel.label>[Special Apparel]</Special_Apparel.label>
+  <Special_Apparel_Hats.label>Hats</Special_Apparel_Hats.label>
+  <Special_Apparel_Handwear.label>Handwear</Special_Apparel_Handwear.label>
+  <Special_Apparel_Outerlayers.label>Outerlayers</Special_Apparel_Outerlayers.label>
+  <Special_Apparel_Accessories.label>Accessories</Special_Apparel_Accessories.label>
+  <Shields.label>Shields</Shields.label>
+  <Star_Wars_Apparel.label>[Star Wars Apparel]</Star_Wars_Apparel.label>
+  <Star_Wars_Hoods.label>Hoods</Star_Wars_Hoods.label>
+  <Star_Wars_Robes.label>Robes</Star_Wars_Robes.label>
+  <Star_Wars_Hats.label>Hats</Star_Wars_Hats.label>
+  <Star_Wars_Uniforms.label>Uniforms</Star_Wars_Uniforms.label>
+  <Star_Wars_Jackets.label>Jackets</Star_Wars_Jackets.label>
+  <Star_Wars_Helmets.label>Helmets</Star_Wars_Helmets.label>
+  <Star_Wars_Armors.label>Armors</Star_Wars_Armors.label>
+  <Tiberium_Rim_Apparel.label>[Tiberium Rim Apparel]</Tiberium_Rim_Apparel.label>
+  <Tiberium_Rim_Hats.label>Hats</Tiberium_Rim_Hats.label>
+  <Tiberium_Rim_Masks.label>Masks</Tiberium_Rim_Masks.label>
+  <Tiberium_Rim_Suits.label>Suits</Tiberium_Rim_Suits.label>
+  <Tiberium_Rim_Helmets.label>Helmets</Tiberium_Rim_Helmets.label>
+  <Tiberium_Rim_Armors.label>Armors</Tiberium_Rim_Armors.label>
+  <Borderlands_The_Rim_Apparel.label>[Borderlands: The Rim Apparel]</Borderlands_The_Rim_Apparel.label>
+  <Borderlands_The_Rim_Helmets.label>Helmets</Borderlands_The_Rim_Helmets.label>
+  <Borderlands_The_Rim_Masks.label>Masks</Borderlands_The_Rim_Masks.label>
+  <Borderlands_The_Rim_Uniforms.label>Uniforms</Borderlands_The_Rim_Uniforms.label>
+  <Borderlands_The_Rim_Armors.label>Armors</Borderlands_The_Rim_Armors.label>
+  <Dragonian_Race_Apparel.label>[Dragonian Apparel]</Dragonian_Race_Apparel.label>
+  <Dragonian_Race_Hats.label>Hats/Hair ornaments</Dragonian_Race_Hats.label>
+  <Dragonian_Race_Dresses.label>Dresses</Dragonian_Race_Dresses.label>
+  <Dragonian_Race_Accessories.label>Accessories</Dragonian_Race_Accessories.label>
+  <Dragonian_Race_Armors.label>Armors</Dragonian_Race_Armors.label>
+  <Dragonian_Race_Helmets.label>Helmets</Dragonian_Race_Helmets.label>
+
+
+</LanguageData>
