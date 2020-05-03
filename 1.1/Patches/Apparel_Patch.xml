@@ -275,14 +275,31 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "Apparel_PsyfocusShirt" or defName = "Apparel_PsyfocusVest" or defName = "Apparel_PsyfocusRobe"]</xpath>
+        <xpath>/ThingDef[defName = "Apparel_PsyfocusShirt" or defName = "Apparel_PsyfocusVest"]</xpath>
         <success>Invert</success>
       </li>
       <li Class="PatchOperationReplace">
-        <xpath>*/ThingDef[defName = "Apparel_PsyfocusShirt" or defName = "Apparel_PsyfocusVest" or defName = "Apparel_PsyfocusRobe"]/thingCategories</xpath>
+        <xpath>*/ThingDef[defName = "Apparel_PsyfocusShirt" or defName = "Apparel_PsyfocusVest"]/thingCategories</xpath>
         <value>
           <thingCategories>
             <li>Special_Apparel</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_PsyfocusRobe"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_PsyfocusRobe"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Special_Apparel_Outerlayers</li>
           </thingCategories>
         </value>
       </li>
