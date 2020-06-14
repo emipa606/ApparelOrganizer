@@ -115,6 +115,22 @@
       </li>
     </operations>
   </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "PTPsiHood"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "PTPsiHood"]</xpath>
+        <value>
+          <thingCategories Inherit="false">
+            <li>Special_Apparel_Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
   <!--============================== Special_Apparel_Outerlayers: PsiTech ==============================-->
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
