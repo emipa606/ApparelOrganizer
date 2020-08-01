@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Special_Apparel_Accessories: Advanced Shield Belts ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_QRShieldBelt"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_QRShieldBelt"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Special_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_HeavyShieldBelt"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_HeavyShieldBelt"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Special_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_RangedShieldBelt"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_RangedShieldBelt"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Special_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Civilian_Apparel_Footwear: Boots and Stuff ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[@Name = "ApparelBootBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[@Name = "ApparelBootBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Footwear</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[@Name = "ApparelSocksBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[@Name = "ApparelSocksBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Footwear</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Combat_Apparel_Footwear: Boots and Stuff ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_military_Boots"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_military_Boots"]</xpath>
+        <value>
+          <thingCategories Inherit="false">
+            <li>Combat_Apparel_Footwear</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Handwear: Boots and Stuff ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[@Name = "ApparelGlovesBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[@Name = "ApparelGlovesBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Handwear</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Accessories: Boots and Stuff ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[@Name = "ApparelRingBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[@Name = "ApparelRingBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
