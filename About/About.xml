@@ -10,8 +10,10 @@
     <li>1.2</li>
   </supportedVersions>
   <modDependencies />
-  <loadAfter />
-  <description>Update of TupiNUMBooRs mod for RimWorld 1.1
+  <loadAfter>
+    <li>vindar.medievaltimes</li>
+  </loadAfter>
+  <description>Update of TupiNUMBooRs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1586143254
 
 [img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]

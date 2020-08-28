@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_FootArmour_Art" or @Name = "MedTimes_FootArmour_Nan" or @Name = "MedTimes_FootArmourNN"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_FootArmour_Art" or @Name = "MedTimes_FootArmour_Nan" or @Name = "MedTimes_FootArmourNN"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Combat_Apparel_Footwear</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_FootArmour_Leg"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_FootArmour_Leg"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Leg_Armor</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_BodyArmour_Art" or @Name = "MedTimes_Armour_Nan" or @Name = "MedTimes_ArmourBaseNN" or @Name = "MedTimes_ApparelJacket" or @Name = "MedTimes_BodyArmour_Leg"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_BodyArmour_Art" or @Name = "MedTimes_Armour_Nan" or @Name = "MedTimes_ArmourBaseNN" or @Name = "MedTimes_ApparelJacket" or @Name = "MedTimes_BodyArmour_Leg"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Body_Armor</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Footgear"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Footgear"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Footwear</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Apparel_Tier1" or defName = "MedTimes_ShellBody_Cloak" or defName = "MedTimes_ShellBody_Cape"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Apparel_Tier1" or defName = "MedTimes_ShellBody_Cloak" or defName = "MedTimes_ShellBody_Cape"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Headgear"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Headgear"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Hats</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_ApparelTabard" or @Name = "MedTimes_Accessories_Norm" or @Name = "MedTimes_Accessories_Nan" or @Name = "MedTimes_Accessories_Art" or @Name = "MedTimes_Accessories_Leg"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_ApparelTabard" or @Name = "MedTimes_Accessories_Norm" or @Name = "MedTimes_Accessories_Nan" or @Name = "MedTimes_Accessories_Art" or @Name = "MedTimes_Accessories_Leg"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Helm_Art" or @Name = "MedTimes_Helm_Leg" or @Name = "MedTimes_Helm_Nan" or @Name = "MedTimes_HelmetNN"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Helm_Art" or @Name = "MedTimes_Helm_Leg" or @Name = "MedTimes_Helm_Nan" or @Name = "MedTimes_HelmetNN"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Helmets</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_HandArmour_Art" or @Name = "MedTimes_HandArmour_Leg" or @Name = "MedTimes_HandArmour_Nan" or @Name = "MedTimes_HandArmourNN"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_HandArmour_Art" or @Name = "MedTimes_HandArmour_Leg" or @Name = "MedTimes_HandArmour_Nan" or @Name = "MedTimes_HandArmourNN"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Combat_Apparel_Handwear</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Handgear"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "MedTimes_Handgear"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Handwear</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
