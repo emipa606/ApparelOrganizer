@@ -160,4 +160,19 @@
       </li>
     </operations>
   </Operation>
+  <!--============================== Fixing recipies ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/RecipeDef[defName = "PTMachiningExtractAtheniumFromPsychicArtifact" or defName = "PTWorkbenchExtractAtheniumFromPsychicArtifact"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[defName = "PTMachiningExtractAtheniumFromPsychicArtifact" or defName = "PTWorkbenchExtractAtheniumFromPsychicArtifact"]/ingredients/li/filter/categories</xpath>
+        <value>
+          <li>Combat_Apparel_Accessories</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
 </Patch>
