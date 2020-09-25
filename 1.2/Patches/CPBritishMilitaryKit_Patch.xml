@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@ParentName = "RHArmorMachineableBase_British"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@ParentName = "RHArmorMachineableBase_British"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories Inherit="False">Body_Armor</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "RHArmorHelmetMakeableBase_British"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "RHArmorHelmetMakeableBase_British"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories Inherit="False">Helmets</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "RHHatMakeableBase_British"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "RHHatMakeableBase_British"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories Inherit="False">Hats</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "RHMaskMakeableBase_British"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "RHMaskMakeableBase_British"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories Inherit="False">Masks</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Rucksack_Bergen" or defName="RNApparel_Harness_PLCE_MTP"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Rucksack_Bergen" or defName="RNApparel_Harness_PLCE_MTP"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories Inherit="False">Combat_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_combats_MTP_British" or defName="RNApparel_combats_MTP_UBAC_British" or defName="RNApparel_Nomex_FlightSuit_RAF" or defName="RHApparel_PcsParka_MTP" or defName="RHApparel_PcsParka_MTP_PLCE"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_combats_MTP_British" or defName="RNApparel_combats_MTP_UBAC_British" or defName="RNApparel_Nomex_FlightSuit_RAF" or defName="RHApparel_PcsParka_MTP" or defName="RHApparel_PcsParka_MTP_PLCE"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories Inherit="False">Combat_Apparel</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_GhillieSuit_British"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_GhillieSuit_British"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories Inherit="False">Special_Apparel</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
