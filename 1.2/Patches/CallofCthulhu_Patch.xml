@@ -1,228 +1,228 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!--============================== Hats: Call of Cthulhu - Factions ==============================-->
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "ROM_Apparel1920sPoliceHat"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "ROM_Apparel1920sPoliceHat"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "ROM_Apparel_NurseCap"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "ROM_Apparel_NurseCap"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "ROM_Apparel_CallOfCthulhuTopHat"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "ROM_Apparel_CallOfCthulhuTopHat"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "ROM_Apparel_CallOfCthulhuNewsboyCap"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "ROM_Apparel_CallOfCthulhuNewsboyCap"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "ROM_Apparel_CallOfCthulhuFedora"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "ROM_Apparel_CallOfCthulhuFedora"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "ROM_Apparel_CallOfCthulhuBowler"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "ROM_Apparel_CallOfCthulhuBowler"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <!--============================== Hats: Call of Cthulhu - Cults ==============================-->
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "Apparel_CultistHood"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "Apparel_CultistHood"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "Apparel_CthulhuMaskHood"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "Apparel_CthulhuMaskHood"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "Apparel_NyarlathotepHood"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "Apparel_NyarlathotepHood"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "Apparel_DagonMitre"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "Apparel_DagonMitre"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "Apparel_ShubMask"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "Apparel_ShubMask"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "Apparel_StandardHood"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "Apparel_StandardHood"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationTest">
-        <xpath>/ThingDef[defName = "Apparel_SailorsCap"]</xpath>
-        <success>Invert</success>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[defName = "Apparel_SailorsCap"]</xpath>
-        <value>
-          <thingCategories>
-            <li>Hats</li>
-          </thingCategories>
-        </value>
-      </li>
-    </operations>
-  </Operation>
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "ROM_Apparel1920sPoliceHat"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "ROM_Apparel1920sPoliceHat"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "ROM_Apparel_NurseCap"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "ROM_Apparel_NurseCap"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "ROM_Apparel_CallOfCthulhuTopHat"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "ROM_Apparel_CallOfCthulhuTopHat"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "ROM_Apparel_CallOfCthulhuNewsboyCap"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "ROM_Apparel_CallOfCthulhuNewsboyCap"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "ROM_Apparel_CallOfCthulhuFedora"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "ROM_Apparel_CallOfCthulhuFedora"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "ROM_Apparel_CallOfCthulhuBowler"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "ROM_Apparel_CallOfCthulhuBowler"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- ============================== Hats: Call of Cthulhu - Cults ============================== -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "Apparel_CultistHood"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "Apparel_CultistHood"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "Apparel_CthulhuMaskHood"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "Apparel_CthulhuMaskHood"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "Apparel_NyarlathotepHood"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "Apparel_NyarlathotepHood"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "Apparel_DagonMitre"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "Apparel_DagonMitre"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "Apparel_ShubMask"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "Apparel_ShubMask"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "Apparel_StandardHood"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "Apparel_StandardHood"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
+  <!-- <Operation Class="PatchOperationSequence"> -->
+  <!-- <success>Always</success> -->
+  <!-- <operations> -->
+  <!-- <li Class="PatchOperationTest"> -->
+  <!-- <xpath>/ThingDef[defName = "Apparel_SailorsCap"]</xpath> -->
+  <!-- <success>Invert</success> -->
+  <!-- </li> -->
+  <!-- <li Class="PatchOperationAdd"> -->
+  <!-- <xpath>*/ThingDef[defName = "Apparel_SailorsCap"]</xpath> -->
+  <!-- <value> -->
+  <!-- <thingCategories> -->
+  <!-- <li>Hats</li> -->
+  <!-- </thingCategories> -->
+  <!-- </value> -->
+  <!-- </li> -->
+  <!-- </operations> -->
+  <!-- </Operation> -->
   <!--============================== Civilian_Apparel_Innerlayers: Call of Cthulhu - Factions ==============================-->
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
