@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "jade_band"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "jade_band"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

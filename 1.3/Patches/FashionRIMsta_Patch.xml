@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Hats: FashionRIMsta ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSFurHat"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_FSFurHat"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSDesertWrap"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_FSDesertWrap"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSChefsHat"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_FSChefsHat"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSSurgicalMask"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_FSSurgicalMask"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Masks: FashionRIMsta ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSGasmask"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_FSGasmask"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Masks</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Innerlayers: FashionRIMsta ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSFineShirt"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSFineShirt"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSFatigues"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSFatigues"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSThermalPants"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSThermalPants"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSCargoShorts"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSCargoShorts"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSScrubs"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSScrubs"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Civilian_Apparel_Outerlayers: FashionRIMsta ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSFurCoat"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSFurCoat"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSDesertRobe"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSDesertRobe"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSGardeningVest"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSGardeningVest"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSChefJacket"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSChefJacket"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSConstructionJacket"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSConstructionJacket"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_FSOveralls"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSOveralls"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

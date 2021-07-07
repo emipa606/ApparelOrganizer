@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <Civilian_Apparel.label>[Civilian Apparel]</Civilian_Apparel.label>
   <Hats.label>Hats</Hats.label>
   <Goggles.label>Goggles</Goggles.label>
@@ -55,6 +54,4 @@
   <Dragonian_Race_Accessories.label>Accessories</Dragonian_Race_Accessories.label>
   <Dragonian_Race_Armors.label>Armors</Dragonian_Race_Armors.label>
   <Dragonian_Race_Helmets.label>Helmets</Dragonian_Race_Helmets.label>
-
-
 </LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Body_Armor: WeaponTech ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_Osprey"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_Osprey"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Body_Armor</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== ExoSuits: Rimworld: Spartan Foundry ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "SF_PoweredAssaultArmor" or defName = "SF_EngineerPowerArmor" or defName = "SF_ExplorerPowerArmor" or defName = "SF_GrenadierPowerArmor" or defName = "SF_CommandoArmor" or defName = "SF_HazardOperationsArmor" or defName = "SF_DiplomatPowerArmor" or defName = "SF_DefenderPowerArmor" or defName = "SF_ScoutPowerArmor" or defName = "SF_SamuraiPowerArmor" or defName = "SF_ShockTrooperArmor" or defName = "SF_ReconPowerArmor"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "SF_PoweredAssaultArmor" or defName = "SF_EngineerPowerArmor" or defName = "SF_ExplorerPowerArmor" or defName = "SF_GrenadierPowerArmor" or defName = "SF_CommandoArmor" or defName = "SF_HazardOperationsArmor" or defName = "SF_DiplomatPowerArmor" or defName = "SF_DefenderPowerArmor" or defName = "SF_ScoutPowerArmor" or defName = "SF_SamuraiPowerArmor" or defName = "SF_ShockTrooperArmor" or defName = "SF_ReconPowerArmor"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>ExoSuits</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

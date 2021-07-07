@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Apparel Organizer (Continued)</name>
   <packageId>Mlie.ApparelOrganizer</packageId>
@@ -8,32 +8,62 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter>
     <li>vindar.medievaltimes</li>
     <li>Jaffer.Avali</li>
   </loadAfter>
-  <description>Update of TupiNUMBooRs mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of TupiNUMBooRs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1586143254
 
-[img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
+Added support for the following mods:
+Spartan Foundry
+Psycic apparel in Royalty
+A RimWorld of Magic
+Borderlands: The Rim
+Dragonian Race
+Vanilla Apparel Expanded
+Vanilla Armor Expanded
+Boots and Stuff
+PsiTech
+ETRT Tribal apparel
+Advanced Shield Belts
+Psychic marine helmet
+Suicide Vest
+NightVision
+[CP] Rimmu-Nation - Clothing
+Medieval Times
+Nearmare race
+Jetpack
+Jewelry
+VFE - Settlers
+VFE - Medieval
+Save Our Ship 2
+Rim of Madness - Bones
+Communicable Diseases
+RimPlas
+Ivory and jade carving
+What the hack?!
+Field Medic
+MiningCo. Mining Helmet
+Mercenaries For Me
+Jin-Roh Kerberos Panzer Cop Armor
+[CP] British Military Kit
+Avali Race + PsiTech Addon
 
-[img]https://i.imgur.com/wtwHAQu.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://invite.gg/Mlie
-
-Non-steam version:
-https://github.com/emipa606/ApparelOrganizer
-
-Added support for Spartan Foundry
-Added support for Psycic apparel in Royalty
-Added support for A RimWorld of Magic
-Added support for Borderlands: The Rim
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/ApparelOrganizer][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-https://github.com/TupiNUMBooR/apparel-organiser
+[img]https://i.imgur.com/NOW7jU1.png[/img]
 
 Ever get tired of the clicking you have to do in the apparel menu?
 
@@ -43,14 +73,14 @@ This organizes most apparels in groups:
 - Special apparel (belts, psyfoil...)
 - Custom categories for Star Wars and Tiberium Rim mods
 
-I can't move some apparel to groups, so it is just dublicated there.
+I can&apos;t move some apparel to groups, so it is just dublicated there.
 Groups are [bracketed] to make it easy to see.
 
 This patch is safe to add and remove in existing games.
 Load this at the end of you mod list.
 
 
-Supported Mods:
+[b]Supported Mods:[/b]
 Androids
 Animal Hoods
 Apparello 2
@@ -60,16 +90,16 @@ Call of Cthulhu - Straitjackets
 Callistans
 Combat Extended
 Combat Extended: Shields
-Drizzly's Christmas Hats
+Drizzly&apos;s Christmas Hats
 Dubs Rimkit(Medkit)
 FashionRIMsta
 Firefoam Belt
 Forsakens
 Glitter Tech
-Hand 'n' Footwear
+Hand &apos;n&apos; Footwear
 Headgear Frame
 High Tech Laboratory Facilities
-Mercer's Backpacks + Nano Suit
+Mercer&apos;s Backpacks + Nano Suit
 Orassans
 PB Basic Apparel
 Polarisbloc - Core LAB
@@ -95,9 +125,21 @@ WeaponTech
 
 If you want me to add a specific mods apparel set, point me towards it and I will take a look at it.
 
-[1.0] by TupiNUMBooR
-[B18] by Drizzly
-Preview art by Chicken Plucker
-[A17] by Mr. Sweetcakes
+	[1.0] by			TupiNUMBooR
+	[B18] by			Drizzly
+	Preview art by		Chicken Plucker
+	[A17] by			Mr. Sweetcakes
+	
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
 </description>
 </ModMetaData>
+
