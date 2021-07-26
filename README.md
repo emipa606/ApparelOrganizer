@@ -63,7 +63,7 @@ This organizes most apparels in groups:
 - Special apparel (belts, psyfoil...)
 - Custom categories for Star Wars and Tiberium Rim mods
 
-I can&apos;t move some apparel to groups, so it is just dublicated there.
+I can&amp;apos;t move some apparel to groups, so it is just dublicated there.
 Groups are [bracketed] to make it easy to see.
 
 This patch is safe to add and remove in existing games.
@@ -80,16 +80,16 @@ Call of Cthulhu - Straitjackets
 Callistans
 Combat Extended
 Combat Extended: Shields
-Drizzly&apos;s Christmas Hats
+Drizzly&amp;apos;s Christmas Hats
 Dubs Rimkit(Medkit)
 FashionRIMsta
 Firefoam Belt
 Forsakens
 Glitter Tech
-Hand &apos;n&apos; Footwear
+Hand &amp;apos;n&amp;apos; Footwear
 Headgear Frame
 High Tech Laboratory Facilities
-Mercer&apos;s Backpacks + Nano Suit
+Mercer&amp;apos;s Backpacks + Nano Suit
 Orassans
 PB Basic Apparel
 Polarisbloc - Core LAB
@@ -131,6 +131,7 @@ If you want me to add a specific mods apparel set, point me towards it and I wil
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

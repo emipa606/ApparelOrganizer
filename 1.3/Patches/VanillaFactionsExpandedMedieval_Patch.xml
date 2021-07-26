@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[@Name="VFEM_BaseShield"]/thingCategories</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>Shields</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>

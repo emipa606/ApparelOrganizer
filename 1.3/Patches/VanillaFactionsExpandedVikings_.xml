@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Vikings</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <!-- crypto armor -->
+          <xpath>/Defs/ThingDef[@Name="VFEV_ApparelArmorCryptoBase"]/thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>ExoSuits</thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <!-- crypto helmets -->
+          <xpath>/Defs/ThingDef[@Name="VFEV_ApparelCryptoHelmetPowerBase"]</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>ExoHelmets</li>
+            </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- other armor -->
+          <xpath>/Defs/ThingDef[
+                    defName="VFEV_Apparel_GuardianArmor" or
+                    defName="VFEV_LeatherArmor" or
+                    defName="VFEV_Apparel_RavagerArmor"]
+                    /thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Body_Armor</thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- capes -->
+          <xpath>/Defs/ThingDef[
+                    defName="VFEV_Apparel_JarlCape" or
+                    defName="VFEV_Apparel_RoyalFurCoat"]
+                    /thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- shields -->
+          <xpath>/Defs/ThingDef[
+                @Name = "VFEV_BaseShield" or
+                @Name = "VFEV_BaseShieldCrypto"]
+                /thingCategories</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Shields</li>
+            </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- torchbelt -->
+          <xpath>/Defs/ThingDef[defName="VFEV_Apparel_TorchBelt"]/thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Special_Apparel_Accessories</thingCategories>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
