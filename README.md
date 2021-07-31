@@ -39,6 +39,11 @@ Mercenaries For Me
 Jin-Roh Kerberos Panzer Cop Armor
 [CP] British Military Kit
 Avali Race + PsiTech Addon
+Flak Armor: SpecOps Edition (via dltslt)
+Vanilla Apparel Expanded - Accessories (via dltslt)
+Vanilla Factions Expanded - Insectoids (via dltslt)
+Vanilla Factions Expanded - Medieval (via dltslt)
+Vanilla Factions Expanded - Vikings (via dltslt)
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 

@@ -5,6 +5,7 @@
       <li>Vanilla Factions Expanded - Insectoids</li>
     </mods>
     <match Class="PatchOperationSequence">
+      <!--<success>Always</success>-->
       <operations>
         <li Class="PatchOperationReplace">
           <!-- helmet -->
@@ -40,6 +41,16 @@
               <!-- line kept from VFEI thingdef -->
               <li>Special_Apparel_Accessories</li>
             </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- artifacts -->
+          <xpath>/Defs/ThingDef[
+                    defName="VFEI_Artifacts_PsychicPacifier" or 
+                    defName="VFEI_Artifacts_PsychicAnimalTamer" or 
+                    defName="VFEI_Artifacts_ArchotechEraser"]/thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Special_Apparel_Accessories</thingCategories>
           </value>
         </li>
       </operations>

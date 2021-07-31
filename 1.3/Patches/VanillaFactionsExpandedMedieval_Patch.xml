@@ -4,13 +4,38 @@
     <mods>
       <li>Vanilla Factions Expanded - Medieval</li>
     </mods>
-    <match Class="PatchOperationReplace">
-      <xpath>/Defs/ThingDef[@Name="VFEM_BaseShield"]/thingCategories</xpath>
-      <value>
-        <thingCategories Inherit="False">
-          <li>Shields</li>
-        </thingCategories>
-      </value>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[@Name="VFEM_BaseShield"]/thingCategories</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Shields</li>
+            </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[
+                    defName="VFEM_Apparel_JesterHat" or
+                    defName="VFEM_Apparel_DameHat" or 
+                    defName="VFEM_Apparel_KingsCrown"]</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Special_Apparel_Hats</li>
+            </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[
+                    defName="VFEM_Apparel_JesterOutfit" or
+                    defName="VFEM_Apparel_DameDress" or
+                    defName="VFEM_Apparel_KingsRobes" or
+                    defName="VFEM_Apparel_PlagueMask"]/thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Special_Apparel_Outerlayers</thingCategories>
+          </value>
+        </li>
+      </operations>
     </match>
   </Operation>
 </Patch>
