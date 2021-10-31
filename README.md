@@ -1,9 +1,12 @@
 # ApparelOrganizer
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of TupiNUMBooRs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1586143254
+
+Since this mod is a pain to keep updated I made a more generic version of it here:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2275655161
 
 Added support for the following mods:
 Spartan Foundry
@@ -45,19 +48,10 @@ Vanilla Factions Expanded - Insectoids (via dltslt)
 Vanilla Factions Expanded - Medieval (via dltslt)
 Vanilla Factions Expanded - Vikings (via dltslt)
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/ApparelOrganizer]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Ever get tired of the clicking you have to do in the apparel menu?
@@ -68,7 +62,7 @@ This organizes most apparels in groups:
 - Special apparel (belts, psyfoil...)
 - Custom categories for Star Wars and Tiberium Rim mods
 
-I can&amp;apos;t move some apparel to groups, so it is just dublicated there.
+I can&apos;t move some apparel to groups, so it is just dublicated there.
 Groups are [bracketed] to make it easy to see.
 
 This patch is safe to add and remove in existing games.
@@ -85,16 +79,16 @@ Call of Cthulhu - Straitjackets
 Callistans
 Combat Extended
 Combat Extended: Shields
-Drizzly&amp;apos;s Christmas Hats
+Drizzly&apos;s Christmas Hats
 Dubs Rimkit(Medkit)
 FashionRIMsta
 Firefoam Belt
 Forsakens
 Glitter Tech
-Hand &amp;apos;n&amp;apos; Footwear
+Hand &apos;n&apos; Footwear
 Headgear Frame
 High Tech Laboratory Facilities
-Mercer&amp;apos;s Backpacks + Nano Suit
+Mercer&apos;s Backpacks + Nano Suit
 Orassans
 PB Basic Apparel
 Polarisbloc - Core LAB
@@ -126,7 +120,7 @@ If you want me to add a specific mods apparel set, point me towards it and I wil
 	[A17] by			Mr. Sweetcakes
 	
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -136,7 +130,6 @@ If you want me to add a specific mods apparel set, point me towards it and I wil
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 

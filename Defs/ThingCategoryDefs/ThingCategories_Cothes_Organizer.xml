@@ -2,7 +2,7 @@
 <Defs>
   <ThingCategoryDef>
     <defName>Civilian_Apparel</defName>
-    <label>[Civilian Apparel]</label>
+    <label>Civilian Apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
@@ -57,7 +57,7 @@
   </ThingCategoryDef>
   <ThingCategoryDef>
     <defName>Combat_Apparel</defName>
-    <label>[Combat Apparel]</label>
+    <label>Combat Apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
@@ -117,7 +117,7 @@
   </ThingCategoryDef>
   <ThingCategoryDef>
     <defName>Special_Apparel</defName>
-    <label>[Special Apparel]</label>
+    <label>Special Apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
@@ -147,7 +147,7 @@
   </ThingCategoryDef>
   <ThingCategoryDef>
     <defName>Star_Wars_Apparel</defName>
-    <label>[Star Wars Apparel]</label>
+    <label>Star Wars Apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
@@ -187,7 +187,7 @@
   </ThingCategoryDef>
   <ThingCategoryDef>
     <defName>Tiberium_Rim_Apparel</defName>
-    <label>[Tiberium Rim Apparel]</label>
+    <label>Tiberium Rim Apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
@@ -217,7 +217,7 @@
   </ThingCategoryDef>
   <ThingCategoryDef>
     <defName>Borderlands_The_Rim_Apparel</defName>
-    <label>[Borderlands: The Rim Apparel]</label>
+    <label>Borderlands: The Rim Apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
@@ -242,7 +242,7 @@
   </ThingCategoryDef>
   <ThingCategoryDef>
     <defName>Dragonian_Race_Apparel</defName>
-    <label>[Dragonian Apparel]</label>
+    <label>Dragonian Apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>

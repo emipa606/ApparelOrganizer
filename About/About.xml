@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Apparel Organizer (Continued)</name>
   <packageId>Mlie.ApparelOrganizer</packageId>
@@ -15,9 +15,12 @@
     <li>vindar.medievaltimes</li>
     <li>Jaffer.Avali</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of TupiNUMBooRs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1586143254
+
+Since this mod is a pain to keep updated I made a more generic version of it here:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2275655161
 
 Added support for the following mods:
 Spartan Foundry
@@ -59,7 +62,7 @@ Vanilla Factions Expanded - Insectoids (via dltslt)
 Vanilla Factions Expanded - Medieval (via dltslt)
 Vanilla Factions Expanded - Vikings (via dltslt)
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
@@ -68,7 +71,7 @@ Vanilla Factions Expanded - Vikings (via dltslt)
 	[/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Ever get tired of the clicking you have to do in the apparel menu?
 
@@ -136,7 +139,7 @@ If you want me to add a specific mods apparel set, point me towards it and I wil
 	[A17] by			Mr. Sweetcakes
 	
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -145,6 +148,5 @@ If you want me to add a specific mods apparel set, point me towards it and I wil
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
