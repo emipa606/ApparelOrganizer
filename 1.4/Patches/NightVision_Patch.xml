@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Goggles: NightVision ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "NV_tinted_goggles"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "NV_tinted_goggles"]</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>Goggles</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "NV_nv_goggles"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "NV_nv_goggles"]</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>Goggles</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Helmets: NightVision ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "NV_adv_helmet"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "NV_adv_helmet"]</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

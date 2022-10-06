@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@ParentName = "ApparelMakeableBaseAvali" or @Name = "AvaliApparelMakeableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@ParentName = "ApparelMakeableBaseAvali" or @Name = "AvaliApparelMakeableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@ParentName = "ArmorMakeableBaseAvali" or @Name = "AvaliArmorMakeableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@ParentName = "ArmorMakeableBaseAvali" or @Name = "AvaliArmorMakeableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Body_Armor</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "AvaliHatMakeableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "AvaliHatMakeableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Hats</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "AvaliArmorHelmetMakeableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "AvaliArmorHelmetMakeableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Helmets</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "Apparel_ShieldBeltAvali" or defName = "Apparel_LifeSupportBeltAvali"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "Apparel_ShieldBeltAvali" or defName = "Apparel_LifeSupportBeltAvali"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Special_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

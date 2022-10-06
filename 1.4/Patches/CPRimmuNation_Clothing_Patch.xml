@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Body_Armor: WeaponTech ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Backpack_Civilian"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Backpack_Civilian"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Backpack_Tactical" or defName = "RNApparel_Holsters_Shoulder" or defName = "RNApparel_Harness_ALICE" or defName = "RNApparel_Harness_MOLLE" or defName = "RNApparel_Backpack_Tactical_Sling" or defName = "RNApparel_Backpack_PegasusEliteOps" or defName = "RNApparel_Backpack_Military"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Backpack_Tactical" or defName = "RNApparel_Holsters_Shoulder" or defName = "RNApparel_Harness_ALICE" or defName = "RNApparel_Harness_MOLLE" or defName = "RNApparel_Backpack_Tactical_Sling" or defName = "RNApparel_Backpack_PegasusEliteOps" or defName = "RNApparel_Backpack_Military"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Combat_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "RNHatBase" or @Name = "RNHatMakeableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "RNHatBase" or @Name = "RNHatMakeableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Hats</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "RNHelmetBase" or @Name = "RNArmorHelmetMakeableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "RNHelmetBase" or @Name = "RNArmorHelmetMakeableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Helmets</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "RNMaskBase" or @Name = "RNMaskMakeableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "RNMaskBase" or @Name = "RNMaskMakeableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Masks</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "RNPowerArmorMachineableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "RNPowerArmorMachineableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>ExoSuits</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "RNPowerArmorHelmetMakeableBase"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "RNPowerArmorHelmetMakeableBase"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>ExoHelmets</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_6B23Vest" or defName = "RNApparel_IBAM81Vest" or defName = "RNApparel_AR500Vest" or defName = "RNApparel_AR500PMCVest" or defName = "RNApparel_AR500WarriorVest" or defName = "RNApparel_511TacTecVest" or defName = "RNApparel_CryeCAGE_Tan"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_6B23Vest" or defName = "RNApparel_IBAM81Vest" or defName = "RNApparel_AR500Vest" or defName = "RNApparel_AR500PMCVest" or defName = "RNApparel_AR500WarriorVest" or defName = "RNApparel_511TacTecVest" or defName = "RNApparel_CryeCAGE_Tan"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Body_Armor</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Parka" or defName = "RNApparel_combats_Multicam" or defName = "RNApparel_combats_M81C" or defName = "RNApparel_combats_DPM" or defName = "RNApparel_combats_DCU" or defName = "RNApparel_combats_Olive" or defName = "RNApparel_combats_GORKA4C" or defName = "RNApparel_combats_FleeceBlack" or defName = "RNApparel_combats_Fleece" or defName = "RNApparel_Parka_M65Blank" or defName = "RNApparel_TacticalJacket_Multicam" or defName = "RNApparel_TacticalJacket_M81C" or defName = "RNApparel_TacticalJacket" or defName = "RNApparel_CombatJacket_Multicam" or defName = "RNApparel_CombatJacket_M81C" or defName = "RNApparel_CombatJacket_DPM" or defName = "RNApparel_CombatJacket_DCU" or defName = "RNApparel_CombatJacket_Olive" or defName = "RNApparel_CombatJacket_Urban" or defName = "RNApparel_GhillieSuit"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Parka" or defName = "RNApparel_combats_Multicam" or defName = "RNApparel_combats_M81C" or defName = "RNApparel_combats_DPM" or defName = "RNApparel_combats_DCU" or defName = "RNApparel_combats_Olive" or defName = "RNApparel_combats_GORKA4C" or defName = "RNApparel_combats_FleeceBlack" or defName = "RNApparel_combats_Fleece" or defName = "RNApparel_Parka_M65Blank" or defName = "RNApparel_TacticalJacket_Multicam" or defName = "RNApparel_TacticalJacket_M81C" or defName = "RNApparel_TacticalJacket" or defName = "RNApparel_CombatJacket_Multicam" or defName = "RNApparel_CombatJacket_M81C" or defName = "RNApparel_CombatJacket_DPM" or defName = "RNApparel_CombatJacket_DCU" or defName = "RNApparel_CombatJacket_Olive" or defName = "RNApparel_CombatJacket_Urban" or defName = "RNApparel_GhillieSuit"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Combat_Apparel</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Shirt_AdaREmake" or defName = "RNApparel_Shirt_ButSarge" or defName = "RNApparel_Polo_WPSRed" or defName = "RNApparel_Hoodie_Ryan" or defName = "RNApparel_Shirt_NomadShirt" or defName = "RNApparel_Shirt_EllieShirt" or defName = "RNApparel_Shirt_LiteDDPM" or defName = "RNApparel_Shirt_Wick" or defName = "RNApparel_Shirt_Spy" or defName = "RNApparel_Shirt_OffDuty" or defName = "RNApparel_Shirt_Office" or defName = "RNApparel_Shirt_PUBGNavy" or defName = "RNApparel_Shirt_PUBGGray" or defName = "RNApparel_Tank_Tenlyashka" or defName = "RNApparel_GymOutfit_Blank" or defName = "RNApparel_Tank_ExplorerB" or defName = "RNApparel__Tank_ExplorerA" or defName = "RNApparel_Plaid_Tan" or defName = "RNApparel_Plaid_Red" or defName = "RNApparel_Plaid_Green" or defName = "RNApparel_Plaid_Blue" or defName = "RNApparel_Plaid_Black" or defName = "RNApparel_Combats_Tanya"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_Shirt_AdaREmake" or defName = "RNApparel_Shirt_ButSarge" or defName = "RNApparel_Polo_WPSRed" or defName = "RNApparel_Hoodie_Ryan" or defName = "RNApparel_Shirt_NomadShirt" or defName = "RNApparel_Shirt_EllieShirt" or defName = "RNApparel_Shirt_LiteDDPM" or defName = "RNApparel_Shirt_Wick" or defName = "RNApparel_Shirt_Spy" or defName = "RNApparel_Shirt_OffDuty" or defName = "RNApparel_Shirt_Office" or defName = "RNApparel_Shirt_PUBGNavy" or defName = "RNApparel_Shirt_PUBGGray" or defName = "RNApparel_Tank_Tenlyashka" or defName = "RNApparel_GymOutfit_Blank" or defName = "RNApparel_Tank_ExplorerB" or defName = "RNApparel__Tank_ExplorerA" or defName = "RNApparel_Plaid_Tan" or defName = "RNApparel_Plaid_Red" or defName = "RNApparel_Plaid_Green" or defName = "RNApparel_Plaid_Blue" or defName = "RNApparel_Plaid_Black" or defName = "RNApparel_Combats_Tanya"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Innerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_TrenchCoat_PUBG" or defName = "RNApparel_Jacket_Division" or defName = "RNApparel_Jacket_LeatherBlank" or defName = "RNApparel_TrenchCoat_Brown" or defName = "RNApparel_TrenchCoat_Gray" or defName = "RNApparel_Blazer_Black" or defName = "RNApparel_Blazer_Blue" or defName = "RNApparel_Tracksuit_Blue" or defName = "RNApparel_Tracksuit_Red" or defName = "RNApparel_Jacket_Bomber"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "RNApparel_TrenchCoat_PUBG" or defName = "RNApparel_Jacket_Division" or defName = "RNApparel_Jacket_LeatherBlank" or defName = "RNApparel_TrenchCoat_Brown" or defName = "RNApparel_TrenchCoat_Gray" or defName = "RNApparel_Blazer_Black" or defName = "RNApparel_Blazer_Blue" or defName = "RNApparel_Tracksuit_Blue" or defName = "RNApparel_Tracksuit_Red" or defName = "RNApparel_Jacket_Bomber"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Outerlayers</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name = "VFEM_BaseShield"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name = "VFEM_BaseShield"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Combat_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "VFEM_Apparel_PlateArmorHeavy"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "VFEM_Apparel_PlateArmorHeavy"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Body_Armor</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "VFEM_Apparel_Tabard"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "VFEM_Apparel_Tabard"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Civilian_Apparel_Accessories</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

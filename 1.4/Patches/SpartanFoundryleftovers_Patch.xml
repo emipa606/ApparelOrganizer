@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Rimworld: Spartan Foundry</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <!-- helmets -->
+      <xpath>/Defs/ThingDef[@ParentName="ArmorHelmetMakeableBase" and starts-with(defName,'SF_')]</xpath>
+      <value>
+        <thingCategories Inherit="False">
+          <li>ExoHelmets</li>
+        </thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>

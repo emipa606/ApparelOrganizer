@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Insectoids</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <!--<success>Always</success>-->
+      <operations>
+        <li Class="PatchOperationReplace">
+          <!-- helmet -->
+          <xpath>/Defs/ThingDef[defName="VFE_Apparel_RiotHelmet"]/thingCategories</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Helmets</li>
+            </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- armor -->
+          <xpath>/Defs/ThingDef[defName="VFE_Apparel_RiotArmor"]/thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Body_Armor</thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- shields -->
+          <xpath>/Defs/ThingDef[@Name = "VFEI_BaseShield"]/thingCategories</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Shields</li>
+            </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- belt -->
+          <xpath>/Defs/ThingDef[defName="VFEI_Apparel_ArchotechShieldBelt"]/thingCategories</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Artifacts</li>
+              <!-- line kept from VFEI thingdef -->
+              <li>Special_Apparel_Accessories</li>
+            </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- artifacts -->
+          <xpath>/Defs/ThingDef[
+                    defName="VFEI_Artifacts_PsychicPacifier" or 
+                    defName="VFEI_Artifacts_PsychicAnimalTamer" or 
+                    defName="VFEI_Artifacts_ArchotechEraser"]/thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Special_Apparel_Accessories</thingCategories>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

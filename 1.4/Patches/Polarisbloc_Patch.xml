@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Civilian_Apparel_Innerlayers: Polarisbloc - Security Force ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Polarisbloc_CygnusStandardTights"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Polarisbloc_CygnusStandardTights"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Innerlayers</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Helmets: Polarisbloc - Security Force ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Polarisbloc_ThubanTacticalGoggles"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Polarisbloc_ThubanTacticalGoggles"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Combat_Apparel_Accessories: Polarisbloc - Core LAB ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_PolarisShieldBelt_II"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_PolarisShieldBelt_II"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Combat_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "VanyaCartridge"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "VanyaCartridge"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Combat_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Combat_Apparel_Accessories: Polarisbloc - Security Force ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Apparel_PolarisShieldBelt_IV"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_PolarisShieldBelt_IV"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Combat_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Polarisbloc_AlkaidStrategyAssistant"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Polarisbloc_AlkaidStrategyAssistant"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Combat_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Polarisbloc_BodyFixTrigger"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Polarisbloc_BodyFixTrigger"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Combat_Apparel_Accessories</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Body_Armor: Polarisbloc - Security Force ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Polarisbloc_CygnusStandardArmor"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Polarisbloc_CygnusStandardArmor"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Body_Armor</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/ThingDef[defName = "Polarisbloc_CygnusStandardArmorC"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Polarisbloc_CygnusStandardArmorC"]/thingCategories</xpath>
+        <value>
+          <thingCategories>
+            <li>Body_Armor</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
