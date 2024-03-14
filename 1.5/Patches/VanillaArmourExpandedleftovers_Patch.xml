@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Armour Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <!-- helmet -->
+          <xpath>/Defs/ThingDef[defName="VAE_Headgear_TrooperHelmet"]/thingCategories</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Helmets</li>
+            </thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- armor -->
+          <xpath>/Defs/ThingDef[defName="VAE_Apparel_TrooperArmor"]/thingCategories</xpath>
+          <value>
+            <thingCategories Inherit="False">
+              <li>Body_Armor</li>
+            </thingCategories>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

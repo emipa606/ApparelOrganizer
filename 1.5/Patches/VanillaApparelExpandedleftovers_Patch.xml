@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Apparel Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <!--<success>Always</success>-->
+      <operations>
+        <li Class="PatchOperationReplace">
+          <!-- fix category -->
+          <xpath>/Defs/ThingDef[defName="VAE_Handwear_Gloves"]/thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Civilian_Apparel_Handwear</thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- special purpose hats -->
+          <xpath>/Defs/ThingDef[
+                        defName="VAE_Headgear_Hardhat" or 
+                        defName="VAE_Headgear_SurgicalMask" or
+                        defName="VAE_Headgear_GasMask" or
+                        defName="VAE_Headgear_ChefsToque"]
+                        /thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Special_Apparel_Hats</thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- regular hats -->
+          <xpath>/Defs/ThingDef[
+                        defName="VAE_Headgear_Beret" or
+                        defName="VAE_Headgear_BaseballCap"]
+                        /thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Hats</thingCategories>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <!-- styling -->
+          <xpath>/Defs/ThingDef[
+                        defName="VAE_Headgear_Scarf" or 
+                        defName="VAE_Headgear_Sunglasses" or 
+                        defName="VAE_Headgear_Glasses"]
+                        /thingCategories/li/text()</xpath>
+          <value>
+            <thingCategories>Civilian_Apparel_Accessories</thingCategories>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

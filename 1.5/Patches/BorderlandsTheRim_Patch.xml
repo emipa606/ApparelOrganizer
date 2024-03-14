@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Borderlands_The_Rim_Helmets: Borderlands: The Rim ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_CrimsonLanceHelmet"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_CrimsonLanceHelmet"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_CrimsonLanceHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_DahlMarineHelmet"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_DahlMarineHelmet"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_DahlMarineHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionScoutHelmet"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionScoutHelmet"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionScoutHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionEngineerHelmet"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionEngineerHelmet"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionEngineerHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionSoldierHelmet"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionSoldierHelmet"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionSoldierHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_ScavTrophyHelmet"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_ScavTrophyHelmet"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_ScavTrophyHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_ScavHelmet"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_ScavHelmet"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_ScavHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_ScavWeldingHelmet"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_ScavWeldingHelmet"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_ScavWeldingHelmet"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Helmets</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Borderlands_The_Rim_Masks: Borderlands: The Rim ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_ScavMask"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_ScavMask"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_ScavMask"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Masks</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_ScavRebreather"]</xpath>
+      </li>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>*/ThingDef[defName = "Apparel_ScavRebreather"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>ApparelBase</value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "Apparel_ScavRebreather"]</xpath>
+        <value>
+          <thingCategories>
+            <li>Borderlands_The_Rim_Masks</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Borderlands_The_Rim_Uniforms: Borderlands: The Rim ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionUniform"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionUniform"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Uniforms</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_CEOsuit"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_CEOsuit"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Uniforms</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_ScavOutfit"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_ScavOutfit"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Uniforms</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Borderlands_The_Rim_Armors: Borderlands: The Rim ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_CrimsonLanceLightArmor"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_CrimsonLanceLightArmor"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Armors</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_CrimsonLanceArmor"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_CrimsonLanceArmor"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Armors</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_DahlMarineArmor"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_DahlMarineArmor"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Armors</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionExosuit"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_HyperionExosuit"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Armors</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_ScavScrapArmor"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_ScavScrapArmor"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Armors</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_ScavRoadkillArmor"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_ScavRoadkillArmor"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Armors</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_ScavPowerArmor"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_ScavPowerArmor"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>Borderlands_The_Rim_Armors</thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

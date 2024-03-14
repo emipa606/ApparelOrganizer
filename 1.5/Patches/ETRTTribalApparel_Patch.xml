@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--============================== Civilian_Apparel_Outerlayers: ETRT: Tribal Apparel ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_FSFurCoat"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSFurCoat"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Outerlayers</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_FSDesertRobe"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSDesertRobe"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Civilian_Apparel_Outerlayers</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--============================== Hats: ETRT: Tribal Apparel ==============================-->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_FSFurHat"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSFurHat"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "Apparel_FSDesertWrap"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Apparel_FSDesertWrap"]/thingCategories/li/text()</xpath>
+        <value>
+          <thingCategories>
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "ET_Apparel_WolfHood"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "ET_Apparel_WolfHood"]</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "ET_Apparel_DeerHood"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "ET_Apparel_DeerHood"]</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "ET_Apparel_ScarabHood"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "ET_Apparel_ScarabHood"]</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "ET_Apparel_SpiderHelm"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "ET_Apparel_SpiderHelm"]</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/ThingDef[defName = "ET_Apparel_SpelHelm"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/ThingDef[defName = "ET_Apparel_SpelHelm"]</xpath>
+        <value>
+          <thingCategories Inherit="False">
+            <li>Hats</li>
+          </thingCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
