@@ -4,23 +4,12 @@
     <mods>
       <li>Vanilla Apparel Expanded — Accessories</li>
     </mods>
-    <match Class="PatchOperationSequence">
-      <operations>
-        <li Class="PatchOperationReplace">
-          <!-- backpack -->
-          <xpath>/Defs/VAE_Accessories.CaravanCapacityApparelDef[defName="VAEA_Apparel_Backpack"]/thingCategories/li/text()</xpath>
-          <value>
-            <thingCategories>Special_Apparel_Accessories</thingCategories>
-          </value>
-        </li>
-        <li Class="PatchOperationReplace">
-          <!-- everything else -->
-          <xpath>/Defs/ThingDef[starts-with(defName,'VAEA_')]/thingCategories/li/text()</xpath>
-          <value>
-            <thingCategories>Special_Apparel_Accessories</thingCategories>
-          </value>
-        </li>
-      </operations>
+    <match Class="PatchOperationReplace">
+      <!-- everything else -->
+      <xpath>/Defs/ThingDef[starts-with(defName,'VAEA_')]/thingCategories/li/text()</xpath>
+      <value>
+        <thingCategories>Special_Apparel_Accessories</thingCategories>
+      </value>
     </match>
   </Operation>
 </Patch>
