@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Apparel Expanded — Accessories</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <!-- everything else -->
+      <xpath>/Defs/ThingDef[starts-with(defName,'VAEA_')]/thingCategories/li/text()</xpath>
+      <value>
+        <thingCategories>Special_Apparel_Accessories</thingCategories>
+      </value>
+    </match>
+  </Operation>
+</Patch>
